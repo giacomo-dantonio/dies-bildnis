@@ -32,6 +32,15 @@ a {
   margin-right: 3vw;
 }
 
+.qrcode {
+  position: fixed;
+  right: 1vw;
+  bottom: 1vh;
+
+  max-width: 40vw;
+  max-height: 40vh;
+}
+
 @media (orientation: landscape) {
   .content {
     float: right;
