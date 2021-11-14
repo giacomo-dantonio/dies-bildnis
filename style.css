@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  color: white;
+
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.card {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+}
+
+.bigme {
+  background-image: url('img/cover.jpg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover !important;
+}
+
+.content {
+  text-align: center;
+}
+
+.socials i {
+  margin-right: 3vw;
+}
+
+@media (orientation: landscape) {
+  .content {
+    float: right;
+    width: 60vw;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+  
+  h2 {
+    font-size: 3vw;
+  }
+  
+  .socials {
+    font-size: 3vw;
+  }
+}
+
+@media (orientation: portrait) {
+  h1 {
+    font-size: 10vw;
+  }
+  
+  h2 {
+    font-size: 6vw;
+  }
+  
+  .socials {
+    font-size: 8vw;
+  }
+}
+
